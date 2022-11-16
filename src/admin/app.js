@@ -1,3 +1,5 @@
+import NewLogo from './extensions/4.jpeg';
+
 const config = {
   locales: [
     // 'ar',
@@ -9,7 +11,7 @@ const config = {
     // 'he',
     // 'id',
     // 'it',
-    // 'ja',
+    'ja',
     // 'ko',
     // 'ms',
     // 'nl',
@@ -27,6 +29,15 @@ const config = {
     // 'zh-Hans',
     // 'zh',
   ],
+  auth: {
+    logo: NewLogo,
+  },
+  menu: {
+    logo: NewLogo,
+  },
+  head: {
+    favicon: NewLogo,
+  }
 };
 
 const bootstrap = (app) => {
